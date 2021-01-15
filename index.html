@@ -20,10 +20,39 @@
         <div class="form-group">
           <input id="personName" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Go!</button>
       </form>
+
+    <p>1. What do you want to do as a programmer?</p>
+
+     <select class="form-control" id="question1">
+       <option>Check here</option>
+       <option>Video Games</option>
+       <option>Websites</option>
+       <option>Windows Applications</option>
+       <option>iOS Applications</option>
+     </select>
+
+     <p>2. Do you want to work with Database, Servers or  maybe Graphic User Interface?</p>
+
+     <div class="radio" id="question2">
+      <label>
+        <input type="radio" name="question2" value="database" checked>Database and Servers
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="question2" value="GUI">GUI
+      </label>
     </div>
 
+    <p>3. How do you like to work on details?</p>
+
+    <label for="question3">Choose level of your attentivness: </label>
+       <input type="range" name="question3" id="question3" min="5" max="100" step="100" value="250000">
+         <output class="price-output" for="price"></output>
+         <button type="submit" class="btn">Go!</button>
+
+    </div>
   </div>
 </body>
 </html>

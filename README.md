@@ -12,8 +12,7 @@
 
 ## Description
 
-This is supposed to be a project where I demonstrate my JavaScript knowlege and basically it is the one. Because the abcence of knowledge is also an indicator that can be easily grade. Way too easily i would say:)
-But if to be serious, my JavaScript code does not work and I have no idea why! I've spent two day rereading the school material and googling, but no results to fix it. So frustrating. I need your help!
+This is supposed to be a project where I demonstrate my JavaScript knowlege and basically it is the one. Because the absence of knowledge is also an indicator that can be easily graded. Way too easily I would say:) But if to be serious, my JavaScript code isn't working and I have no idea why! I've spent entire two days rereading the school material and googling, but couldn't figure it out anyway. So frustrating. I need your help!
 
 ### Contact information
 

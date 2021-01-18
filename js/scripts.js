@@ -1,20 +1,23 @@
 $(document).ready(function() {
-  $("form#languageSuggester").click(function(event) {
+  $("form#languageSuggester").submit(function(event) {
     const name = $("input#personName").val();
     const techField = $("input#question1").val();
     const typeOfDevelopment = $("input:radio[name=question2]:checked").val();
-    const attentivness = document.querySelector("input#question3");
-    const output = document.querySelector(".range-slider");
-      output.textContent = attentivness.range;
-      attentivness.addEventListener("input", function() {
-      output.textContent = attentivness.value;
+    const attentivness = document.querySelector("#question3");
+    const output = document.querySelector(".question3-output");
+
+    output.textContent = question3.value;
+
+    question3.addEventListener("input", function() {
+     output.textContent = question3.value;
       
     $(".personName").text(name);
     $(".question1").text(techField);
-    $(".typeOfDevelopment").text(typeOfDevelopment);
-    $(".slider").text(attentivness);
+    $(".question2").text(typeOfDevelopment);
+    $(".question3").text(attentivness);
 
     event.preventDefault();
-    $("#result").show();
+    $("#output").show();
+    });
   });
 });

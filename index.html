@@ -9,23 +9,25 @@
 </head>
 <body>
   <div class="container">
-    <h1>PROGRAMMING: what language to pick first?</h1>
+    <h1>PROGRAMMING:</h1>
+    <h2><em>what language to pick first?</em></h2>
 
-    <p>So you've decided to learn a programming language. Good thinking! The need to be code literate for various jobs is increasing. However, as a beginner, proceeding from making that career-boosting decision to actually acquiring the skills is definitely confusing. You're faced with hundreds of options to pick from as your first language.</p>
+    <p>So you've decided to learn a programming language. <strong>Good thinking!</strong> The need to be code literate for various jobs is increasing. However, as a beginner, proceeding from making that career-boosting decision to actually acquiring the skills is definitely confusing. You're faced with hundreds of options to pick from as your first language.</p> 
+      
+    <p><span class="highlight">So, before making that choice, it’s a good idea to ask yourself a few key questions.</span></p>
+    
+    <h3>Let's start!</h3>
 
-    <p>So, before making that choice, it’s a good idea to ask yourself a few key questions. Let us help you with that!</p>
+    <p>Please enter your name:</p>
     
-    <h3>Please enter your name:</h3>
-    
-    <div>
       <form id="langugeSuggester">
         <div class="form-group">
           <input id="personName" class="form-control" type="text"> 
         </div>
 
     <p>1. What do you want to do as a programmer?</p>
-
-      <select class="form-control" id="question1">
+  
+      <select class="form-control" id="question1" type="select">
         <option>Check here</option>
         <option>Video Games</option>
         <option>Websites</option>
@@ -49,16 +51,16 @@
 
     <p>3. How do you like to work on details?</p>
 
+      <div class=slider>
       <label for="attentivness">Choose level of your attentivness: </label>
         <input type="range" name="slider" id="question3" min="1" max="10" step="1" value="3">
           <output class="question3-output" for="attentivness"></output>
-          
-        <button type="submit" class="btn">Go!</button>
-      </form> 
-        <div id="result">
+      </div>
+      <button type="submit" class="btn">Result</button>
+      </form>
+      <div id="output">
 
-        </div>
-    </div>
+      </div>
   </div>
 </body>
 </html>

@@ -36,11 +36,6 @@ input[type="text"] {
   border-radius: 4px;
 }
 
-input[type="range"] {
-  width: 50%;
-  margin: 10px;
-}
-
 .form-control[type="select"] {
   border: 2px solid rgb(173, 80, 3);
   border-radius: 4px;
@@ -53,4 +48,8 @@ input[type="range"] {
   background-color: rgb(238, 124, 31);
   padding: 20px;
   border-radius: 10%;
+}
+
+#lourLanguage {
+  display: none;
 }

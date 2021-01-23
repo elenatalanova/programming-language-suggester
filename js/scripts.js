@@ -11,13 +11,14 @@ $(document).ready(function() {
     $(".question1").text(question1);
     $(".question2").text(question2);
     $(".question3").text(question3);
-  });
   
-    if ( === videoGames) {
-      yourLanguage = Python;
-    } else (techField === other) {
-      your language  = JavaSkript
+    if (guestion1 === "videoGames" || "databaseAndServers" || "option3") {
+      $(".yourLanguage").show("Paython");
+    } else {
+      $(".yourLanguage").show("JavaSkript");
     }
+    });
+  });
     
 
 

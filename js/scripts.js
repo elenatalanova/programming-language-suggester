@@ -12,69 +12,11 @@ $(document).ready(function() {
     $(".question2").text(question2);
     $(".question3").text(question3);
   
-    if (guestion1 === "videoGames" || "databaseAndServers" || "option3") {
-      $(".yourLanguage").show("Paython");
+    if (guestion1 === "videoGames") {
+      $(".languageResult1").show();
     } else {
-      $(".yourLanguage").show("JavaSkript");
+      $(".languageResult2").show();
     }
     });
   });
     
-
-
-    
-    /*$(".personName").text(name);
-    $(".question1").text(techField);
-
-    $("#yourLanguage").show();*/
-
-    
-   
-    /*if (techField === videoGames) {
-      yourLanguage = Python;
-    } else (techField === other) {
-      your language  = JavaSkript
-    }*/
-  
-    
-    
-    
-    
-    /*const typeOfDevelopment = $("input:radio[name=question2]:checked").val();
-    const attentivness = 
-    const attentivness = document.querySelector("#question3");
-    const output = document.querySelector(".question3-output");
-
-    output.textContent = question3.value;
-
-    question3.addEventListener("input", function() {
-     output.textContent = question3.value;
-      
-    
-
-    $(".personName").text(name);
-    $(".question1").text(techField);
-    $(".question2").text(typeOfDevelopment);
-    $(".question3").text(attentivness);
-
-
-    });
-  });
-});*/
-
-
-
-
-
-/*const variables = prompt('asdf');
-function qwer(vars) {
-  return 'something';
-}
-alert(qwer(variables));
-
-const variables = prompt('asdf');
-function qwer(vars) {
-  return 'something';
-}
-const result = qwer(variables);
-alert(result);*/

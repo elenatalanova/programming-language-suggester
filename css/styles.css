@@ -50,19 +50,19 @@ input[type="text"] {
   border-radius: 10%;
 }
 
-#languageResult {
+.result {
   font-size: 16px;
   margin-bottom: 50px;
   margin-top: -100px;
   padding: 60px;
 }
 
-.important {
+#congratulations {
   font-style: italic;
   text-decoration: underline;
   color: rgb(173, 80, 3);
 }
 
-.result {
+/*.result {
   display: none;
-}
+}*/

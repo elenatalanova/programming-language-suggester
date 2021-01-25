@@ -16,6 +16,7 @@ $(document).ready(function() {
       $(".languageResult1").show();
     } else {
       $(".languageResult2").show();
+      $(".result").show();
     }
     $(".quiz").hide();
     });

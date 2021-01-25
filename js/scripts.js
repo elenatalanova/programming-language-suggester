@@ -12,11 +12,12 @@ $(document).ready(function() {
     $(".question2").text(question2);
     $(".question3").text(question3);
   
-    if (guestion1 === "videoGames") {
+    if (question1 === "videoGames") {
       $(".languageResult1").show();
     } else {
       $(".languageResult2").show();
     }
+    $(".quiz").hide();
     });
   });
     

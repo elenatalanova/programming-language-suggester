@@ -18,7 +18,9 @@ $(document).ready(function() {
           $(".languageResult2").show(); 
         } else if (question1 === "windowsApplications", question2 === "databaseAndServers", question3 === "option1" || "option2" || "option3" || "option4" || "option5") {
             $(".languageResult3").show();
-    }
+          } else {
+            $(".languageResult2").show();
+          }
     $(".result").show();
     $(".quiz").hide();
     });

@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     const personName = $("input#personName").val();
-    const question1 = $("input#question1").val();
+    const question1 = $("select#question1").val();
     const question2 = $("input#question2").val();
     const question3 = $("input#question3").val();
 
@@ -12,6 +12,7 @@ $(document).ready(function() {
     $(".question2").text(question2);
     $(".question3").text(question3);
     
+    console.log(question1, question2, question3);
     if (question1 === "videoGames" && question2 === "databaseAndServers" && (question3 === "option1" || question3 === "option2" || question3 === "option3")) {
       $(".languageResult1").show();
 

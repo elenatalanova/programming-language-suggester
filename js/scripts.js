@@ -11,15 +11,15 @@ $(document).ready(function() {
     $(".question1").text(question1);
     $(".question2").text(question2);
     $(".question3").text(question3);
-  
-    if (question1 === "videoGames", question2 === "databaseAndServers", question3 === "option1" || "option2" || "option3") {
+    
+    if (question1 === "videoGames" && question2 === "databaseAndServers" && question3 === "option1" || "option2" || "option3") {
         $(".languageResult1").show();
-      } else if (question1 === "websites", question2 === "gui", question3 === "option1" || "option2" || "option3" || "option4" || "option5") {
+      } else if (question1 === "websites" && question2 === "gui" && question3 === "option1" || "option2" || "option3" || "option4" || "option5") {
           $(".languageResult2").show(); 
-        } else if (question1 === "windowsApplications", question2 === "databaseAndServers", question3 === "option1" || "option2" || "option3" || "option4" || "option5") {
+        } else if (question1 === "windowsApplications" && question2 === "databaseAndServers" && question3 === "option1" || "option2" || "option3" ||"option4" || "option5") {
             $(".languageResult3").show();
           } else {
-            $(".languageResult2").show();
+              $(".languageResult2").show();
           }
     $(".result").show();
     $(".quiz").hide();
